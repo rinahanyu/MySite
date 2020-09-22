@@ -130,3 +130,46 @@ header {
 .portfolio-image > div:nth-child(6) {
   background-image: url(img/webcamp-mother.png);
 }
+
+/* フューチャー */
+.feature-container {
+  padding-top:90px;
+  padding-bottom: 90px;
+  /* display: flex;
+  justify-self: center; */
+}
+
+.strength-group {
+  width: 980px;
+  margin: 0px auto;
+  display: flex;
+}
+
+.strength {
+  width: 320px;
+  height: auto;
+  color: #000000;
+  text-align: center;
+  padding-right: 10px;
+}
+
+.strength:nth-child(3) {
+  padding-right: 0px;
+}
+
+.fas {
+  font-size: 60px;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.strength h5 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.strength p {
+  font-size: 16px;
+  text-align: left;
+}
