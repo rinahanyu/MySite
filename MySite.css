@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.main {
+  color: #000000;
+}
+
 /* ヘッダー */
 header {
   height: 70px;
@@ -82,7 +86,6 @@ header {
   padding-bottom: 30px;
   text-align: center;
   font-size: 16px;
-  color: #000000;
 }
 
 .portfolio-image {
@@ -135,8 +138,6 @@ header {
 .feature-container {
   padding-top:90px;
   padding-bottom: 90px;
-  /* display: flex;
-  justify-self: center; */
 }
 
 .strength-group {
@@ -148,7 +149,6 @@ header {
 .strength {
   width: 320px;
   height: auto;
-  color: #000000;
   text-align: center;
   padding-right: 10px;
 }
@@ -172,4 +172,45 @@ header {
 .strength p {
   font-size: 16px;
   text-align: left;
+}
+
+/* プロフィール */
+.profile-container {
+  background-color: #ECEFF1;
+  padding-top:90px;
+  padding-bottom: 90px;
+}
+
+.profile-group {
+  display: flex;
+  width: 1024px;
+  margin: 0px auto;
+}
+
+.left-content, .right-content {
+  width: 512px;
+}
+
+.left-content {
+  text-align: center;
+}
+
+.profile-photo {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.right-content h5 {
+  font-size: 20px;
+}
+
+.right-content p {
+  font-size: 16px;
+  padding-top: 5px;
+}
+
+.skill-profile {
+  padding-top: 20px;
 }
