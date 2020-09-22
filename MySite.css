@@ -214,3 +214,35 @@ header {
 .skill-profile {
   padding-top: 20px;
 }
+
+/* コンタクト */
+.contact-container {
+  padding-top:90px;
+  padding-bottom: 90px;
+}
+
+.mail, .tel, .sns {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.contact-group {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.right-contact, .left-contact {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.address {
+  padding-bottom: 20px;
+}
+
+.fab {
+  font-size: 50px;
+  padding-right: 20px;
+}
