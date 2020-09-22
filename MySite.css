@@ -246,3 +246,17 @@ header {
   font-size: 50px;
   padding-right: 20px;
 }
+
+/* フッター */
+footer {
+  height: 60px;
+  background-color: #EC715F;
+  text-align: center;
+}
+
+.copyright {
+  font-size: 16px;
+  color: #FAFAFA;
+  display: inline-block;
+  line-height: 60px;
+}
