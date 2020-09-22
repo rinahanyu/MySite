@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  background-color: #EC715F;
+  color: white;
+  
+}
+
+.top-container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.header-logo {
+  height: 70px;
+  float: left;
+}
+
+.nav-list {
+  float: right;
+  line-height: 70px;
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
